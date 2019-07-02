@@ -26,7 +26,7 @@ android {
 }
 
 dependencies {
-    implementation fileTree(dir: 'libs', include: ['*.jar'])
+    implementation fileTree(include: ['*.jar'], dir: 'libs')
     androidTestImplementation('com.android.support.test.espresso:espresso-core:2.2.2', {
         exclude group: 'com.android.support', module: 'support-annotations'
     })
@@ -64,5 +64,5 @@ dependencies {
     implementation 'com.trello.rxlifecycle2:rxlifecycle-android:2.0.1'
     //如果你想要预先写好的Activities和Fragments，你可以作为提供者的子类
     implementation 'com.trello.rxlifecycle2:rxlifecycle-components:2.0.1'
-
+    implementation 'com.android.support.constraint:constraint-layout:1.1.3'
 }
