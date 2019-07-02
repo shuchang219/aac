@@ -3,8 +3,6 @@ package com.senon.mvpretrofitrx.mvp.base;
 import com.google.gson.annotations.SerializedName;
 
 /**
- * 作者：senon on 2017/12/28 11:19
- * 邮箱：a1083911695@163.com
  *
  * 返回的数据结构：
  * {

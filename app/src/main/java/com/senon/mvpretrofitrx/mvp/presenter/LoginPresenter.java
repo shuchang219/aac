@@ -15,8 +15,6 @@ import java.util.List;
 import retrofit2.http.GET;
 
 /**
- * 作者：senon on 2017/12/27 10:34
- * 邮箱：a1083911695@163.com
  */
 public class LoginPresenter extends LoginContract.Presenter {
 
@@ -42,7 +40,7 @@ public class LoginPresenter extends LoginContract.Presenter {
             @Override
             public void onError(ExceptionHandle.ResponeThrowable e) {
                 if(getView() != null){
-                //// TODO: 2017/12/28 自定义处理异常
+                //自定义处理异常
                 ToastUtil.showShortToast(ExceptionHandle.handleException(e).message);
                 }
             }

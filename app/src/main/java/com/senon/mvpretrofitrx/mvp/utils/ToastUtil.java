@@ -11,8 +11,6 @@ import android.widget.Toast;
 import com.senon.mvpretrofitrx.R;
 
 /**
- * 作者：senon on 2017/12/7 14:21
- * 邮箱：a1083911695@163.com
  */
 public class ToastUtil {
     private static Toast toast;
